@@ -6,7 +6,7 @@ import os
 
 from django.utils.translation import ugettext_lazy as _
 from django.core.exceptions import ImproperlyConfigured
-from django.http import HttpResponse, HttpResponseNotModified, Http404\
+from django.http import HttpResponse, HttpResponseNotModified, Http404
 from django.views.generic import View
 from django.views.static import was_modified_since
 from django.utils.http import http_date
